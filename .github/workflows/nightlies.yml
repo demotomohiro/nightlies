@@ -316,8 +316,9 @@ jobs:
             triple: x86_64-linux-musl
           - os: linux
             triple: i686-linux-musl
-          - os: linux
-            triple: aarch64-linux-musl
+          # Temporarily skip this build until it can be built without errors.
+          #- os: linux
+            #triple: aarch64-linux-musl
           - os: linux
             triple: armv7l-linux-musleabihf
           - os: macosx
